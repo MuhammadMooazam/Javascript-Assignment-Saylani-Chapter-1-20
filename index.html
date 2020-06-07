@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asignment # 4</title>
+    <script src="app.js"></script>
+</head>
+
+<body>
+
+    <!-- Q6) -->
+    <table>
+        <tr style="font-weight: bold;">
+            <td>Subject</td>
+            <td>Total Marks</td>
+            <td>Obtained Marks</td>
+            <td>Percentage</td>
+        </tr>
+        <tr>
+            <td>
+                <script>
+                    var sub1 = prompt("Enter first subject: ")
+                    document.write(sub1);
+                </script>
+            </td>
+            <td>
+                <script>
+                    var totalmarks1 = 100
+                    document.write(totalmarks1)
+                </script>
+            </td>
+            <td>
+                <script>
+                    var marks1 = +prompt("Enter obtained marks of first subject: ")
+                    document.write(marks1)
+                </script>
+            </td>
+            <td>
+                <script>
+                    document.write((marks1 / totalmarks1 * 100) + "%")
+                </script>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <script>
+                    var sub2 = prompt("Enter second subject: ")
+                    document.write(sub2)
+                </script>
+            </td>
+            <td>
+                <script>
+                    var totalmarks1 = 100
+                    document.write(totalmarks1)
+                </script>
+            </td>
+            <td>
+                <script>
+                    var marks2 = +prompt("Enter obtained marks of second subject: ")
+                    document.write(marks2)
+                </script>
+            </td>
+            <td>
+                <script>
+                    document.write((marks2 / totalmarks1 * 100) + "%")
+                </script>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <script>
+                    var sub3 = prompt("Enter third subject: ")
+                    document.write(sub3)
+                </script>
+            </td>
+            <td>
+                <script>
+                    var totalmarks1 = 100
+                    document.write(totalmarks1)
+                </script>
+            </td>
+            <td>
+                <script>
+                    var marks3 = +prompt("Enter obtained marks of third subject: ")
+                    document.write(marks3)
+                </script>
+            </td>
+            <td>
+                <script>
+                    document.write((marks3 / totalmarks1 * 100) + "%")
+                </script>
+            </td>
+        </tr>
+        <tr style="font-weight: bold;">
+            <td></td>
+            <td>
+                <script>
+                    document.write(totalmarks1 * 3)
+                </script>
+            </td>
+            <td>
+                <script>
+                    document.write(marks1 + marks2 + marks3)
+                </script>
+            </td>
+            <td>
+                <script>
+                    document.write((marks1 + marks2 + marks3) / (totalmarks1 * 3) * 100 + "%")
+                </script>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
